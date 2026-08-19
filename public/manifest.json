@@ -1,0 +1,22 @@
+{
+  "short_name": "MustafaDev",
+  "name": "Mustafa Develops Portfolio",
+  "description": "High-end interactive portfolio and creative showcase for Mustafa Develops",
+  "icons": [
+    {
+      "src": "https://i.pinimg.com/736x/36/0b/bb/360bbbe7c0c434a227af805238c23de1.jpg",
+      "type": "image/jpeg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://i.pinimg.com/736x/36/0b/bb/360bbbe7c0c434a227af805238c23de1.jpg",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0b0d17",
+  "theme_color": "#0b0d17",
+  "display": "standalone",
+  "orientation": "portrait"
+}
