@@ -130,7 +130,7 @@ export const Hero: React.FC = () => {
                 </div>
                 <div className="flex items-center gap-1.5 font-serif italic text-white/90">
                   <Sparkles className="w-3.5 h-3.5 text-indigo-400" />
-                  <span>01 / 04</span>
+                  <span>0{currentImgIdx + 1} / 0{HERO_IMAGES.length}</span>
                 </div>
               </div>
 

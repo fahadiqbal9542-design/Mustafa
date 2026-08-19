@@ -1,5 +1,6 @@
 import { Project, Skill, VideoProject } from './types';
-import abdullahPortrait from './assets/images/abdullah_developer_portrait_1787144235932.jpg';
+import abdullahBlackShirt from './assets/images/abdullah_black_shirt_setup_1787144877163.jpg';
+import abdullahBlueSuit from './assets/images/abdullah_blue_suit_setup_1787144900808.jpg';
 
 export const PERSONAL_INFO = {
   name: 'Abdullah Developer',
@@ -19,9 +20,8 @@ export const PERSONAL_INFO = {
 };
 
 export const HERO_IMAGES = [
-  abdullahPortrait,
-  'https://i.pinimg.com/736x/df/d9/15/dfd915e00664849b356db57f08bdecbe.jpg',
-  'https://i.pinimg.com/736x/36/0b/bb/360bbbe7c0c434a227af805238c23de1.jpg'
+  abdullahBlackShirt,
+  abdullahBlueSuit
 ];
 
 export const VISUALIZATION_SLIDER_IMAGES = [
