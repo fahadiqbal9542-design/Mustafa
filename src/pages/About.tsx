@@ -25,7 +25,7 @@ export const About: React.FC = () => {
           <span>CREATIVE PROFILE &bull; PHILOSOPHY</span>
         </div>
         <h1 className="text-4xl sm:text-6xl font-serif font-light tracking-tight text-white">
-          About Ghulam Mustafa
+          About Abdullah Developer
         </h1>
         <p className="text-white/60 text-base font-sans leading-relaxed">
           Creative Director, Full-Stack Developer & Digital Craftsman based in {PERSONAL_INFO.location}.

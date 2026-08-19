@@ -1,23 +1,25 @@
 import { Project, Skill, VideoProject } from './types';
+import abdullahPortrait from './assets/images/abdullah_developer_portrait_1787144235932.jpg';
 
 export const PERSONAL_INFO = {
-  name: 'Ghulam Mustafa',
-  brandName: 'MUSTAFA DEVELOPS',
+  name: 'Abdullah Developer',
+  brandName: 'ABDULLAH DEVELOPER',
   title: 'Creative Director & Full-Stack Developer',
-  email: 'inffo.ghulammustafa@gmail.com',
+  email: 'inffo.abdullahdeveloper@gmail.com',
   location: 'Afridi Chowk Millat Road Faisalabad',
   availability: 'Available for Hire',
   responseTime: '< 2 Hours',
   timezone: 'GMT+5 (PKT)',
   socialLinks: {
-    linkedin: 'https://www.linkedin.com/in/ghulam-mustafa-1485563ab/',
-    pinterest: 'https://www.pinterest.com/inffoghulammustafa/',
-    instagram: 'https://www.instagram.com/mustafa7867309/',
+    linkedin: 'https://www.linkedin.com/in/abdullah-developer/',
+    pinterest: 'https://www.pinterest.com/inffoabdullahdeveloper/',
+    instagram: 'https://www.instagram.com/abdullahdeveloper/',
     whatsapp: 'https://wa.me/923000000000'
   }
 };
 
 export const HERO_IMAGES = [
+  abdullahPortrait,
   'https://i.pinimg.com/736x/df/d9/15/dfd915e00664849b356db57f08bdecbe.jpg',
   'https://i.pinimg.com/736x/36/0b/bb/360bbbe7c0c434a227af805238c23de1.jpg'
 ];

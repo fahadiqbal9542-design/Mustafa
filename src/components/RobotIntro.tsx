@@ -19,7 +19,7 @@ export const RobotIntro: React.FC<RobotIntroProps> = ({ onEnter }) => {
   const isPlayingRef = useRef(false);
   const timerRef = useRef<number | null>(null);
 
-  const fullText = "MUSTAFA DEVELOPS";
+  const fullText = "ABDULLAH DEVELOPER";
 
   // Mouse parallax movement
   const handleMouseMove = (e: React.MouseEvent) => {

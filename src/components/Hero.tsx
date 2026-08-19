@@ -40,9 +40,9 @@ export const Hero: React.FC = () => {
 
             {/* Main Editorial Headline */}
             <h1 className="text-5xl sm:text-7xl lg:text-8xl font-serif font-light tracking-tight text-white leading-[0.9]">
-              THE <br />
-              <span className="font-serif italic font-normal text-white/90">CELESTIAL</span> <br />
-              ARCHITECT.
+              ABDULLAH <br />
+              <span className="font-serif italic font-normal text-white/90">WEB</span> <br />
+              DEVELOPER.
             </h1>
 
             {/* Subtitle with line divider */}

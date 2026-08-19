@@ -15,7 +15,7 @@ export const Admin: React.FC = () => {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (username === 'mustafa' && password === 'mustafanoor') {
+    if ((username === 'abdullah' || username === 'mustafa') && (password === 'abdullah123' || password === 'mustafanoor')) {
       setIsAuthenticated(true);
       setLoginError('');
       fetchLeads();
@@ -88,7 +88,7 @@ export const Admin: React.FC = () => {
                 required
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
-                placeholder="mustafa"
+                placeholder="abdullah"
                 className="w-full px-4 py-2.5 rounded-sm bg-[#0A0B10] border border-white/10 text-white text-sm focus:outline-none focus:border-white/30 font-sans"
               />
             </div>
@@ -127,7 +127,7 @@ export const Admin: React.FC = () => {
         <div>
           <div className="flex items-center gap-2 text-indigo-400 font-sans text-[10px] uppercase tracking-widest mb-1">
             <UserCheck className="w-4 h-4" />
-            <span>AUTHENTICATED: MUSTAFA COMMAND</span>
+            <span>AUTHENTICATED: ABDULLAH COMMAND</span>
           </div>
           <h1 className="text-2xl font-serif italic text-white">
             Client Intelligence Center
