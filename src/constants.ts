@@ -65,7 +65,7 @@ export const PROJECTS_LIST: Project[] = [
     title: 'Crazy Roll 3D',
     description: 'A high-octane 3D arcade game featuring fast-paced rolling action, challenging obstacles, and immersive gameplay.',
     image: 'https://imgs.crazygames.com/games/crazy-roll-3d/cover_16x9-1709124312204.png?metadata=none&quality=60&height=4250',
-    link: 'https://ghulam-mustafa-kappa.vercel.app/',
+    link: 'https://abdullah-developer.vercel.app/',
     tags: ['3D Gaming', 'WebGL', 'JavaScript', 'Interactive'],
     featured: true
   },

@@ -40,7 +40,7 @@ export const Footer: React.FC = () => {
             <ul className="space-y-3 text-xs uppercase tracking-widest font-sans">
               {[
                 { name: 'Home Showcase', path: '/' },
-                { name: 'About Mustafa', path: '/about' },
+                { name: 'About Abdullah', path: '/about' },
                 { name: 'Selected Works', path: '/projects' },
                 { name: 'Video Editing', path: '/projects/video-editing' },
                 { name: 'Identity Check', path: '/contact' },

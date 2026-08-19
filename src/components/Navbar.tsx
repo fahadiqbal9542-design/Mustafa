@@ -33,7 +33,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onReplayIntro }) => {
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = 'Mustafa_Portfolio.url';
+    link.download = 'Abdullah_Portfolio.url';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -46,10 +46,10 @@ export const Navbar: React.FC<NavbarProps> = ({ onReplayIntro }) => {
           {/* Brand Logo */}
           <Link to="/" className="flex items-center gap-3 group">
             <div className="w-9 h-9 rounded-full border border-white/20 bg-gradient-to-br from-[#1A1D29] to-[#0A0B10] flex items-center justify-center font-serif text-sm tracking-widest text-[#E5E7EB] group-hover:border-white/60 transition-all">
-              MD
+              AD
             </div>
-            <span className="text-xl font-light tracking-[0.2em] font-serif text-[#E5E7EB] group-hover:opacity-80 transition-opacity">
-              MUSTAFA <span className="font-serif italic font-normal opacity-70">DEVELOPS</span>
+            <span className="text-lg sm:text-xl font-light tracking-[0.2em] font-serif text-[#E5E7EB] group-hover:opacity-80 transition-opacity">
+              ABDULLAH <span className="font-serif italic font-normal opacity-70">WEB DEVELOPER</span>
             </span>
           </Link>
 
@@ -202,7 +202,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onReplayIntro }) => {
                 <h3 className="font-heading font-bold text-xl">App Package Ready!</h3>
               </div>
               <p className="text-slate-300 text-sm mb-4 leading-relaxed">
-                Mustafa Portfolio download start ho chuka hai! Aapke Downloads folder mein <span className="text-blue-400 font-semibold">Mustafa_Portfolio.url</span> shortcut aur <span className="text-blue-400 font-semibold">Mustafa-Portfolio-App.zip</span> download ho gaye hain.
+                Abdullah Developer Portfolio download start ho chuka hai! Aapke Downloads folder mein <span className="text-blue-400 font-semibold">Abdullah_Portfolio.url</span> shortcut aur <span className="text-blue-400 font-semibold">Abdullah-Portfolio-App.zip</span> download ho gaye hain.
               </p>
               <div className="space-y-2 text-xs text-slate-400 bg-slate-950/80 p-3 rounded-xl border border-slate-800">
                 <p>1. Desktop par chalane ke liye: <span className="text-slate-200">Downloads se .url shortcut drag-and-drop karke Desktop par rakhein.</span></p>
